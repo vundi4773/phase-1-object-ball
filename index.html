@@ -4,6 +4,46 @@
   catch.
 </p>
 
-<script src="./src/00-objectball.js"></script>
+<script src="./src/00-objectball.js">
+  const gameObject = () => {
+      let obj = {
+        home: {
+          teamName: "Brooklyn Nets",
+          colors: ["black", "white"],
+          players: {
+            "Alan Anderson": {
+              number: 0,
+              shoe: 16,
+              points: 22,
+              rebounds: 12,
+              assists: 12,
+              steals: 3,
+              blocks: 1,
+              slamDunks: 1,
+            }
+            //other objects
+          },
+        },
+        away: {
+          teamName: "Brooklyn Nets",
+          colors: ["black", "white"],
+          players: {
+            "Alan Anderson": {
+              number: 0,
+              shoe: 16,
+              points: 22,
+              rebounds: 12,
+              assists: 12,
+              steals: 3,
+              blocks: 1,
+              slamDunks: 1,
+            },
+            //other objects
+          },
+        },
+      };
+      return obj;
+    };
+</script>
 <script src="./src/01-simple-debug.js"></script>
 <!-- <script src="./src/02-advanced-debug.js"></script> -->
